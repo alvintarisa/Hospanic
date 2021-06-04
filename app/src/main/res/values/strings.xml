@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hospanic</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_home"></string>
+    <string name="tab_daftar_rumah_sakit"></string>
+    <string name="tab_transaksi"></string>
+    <string name="tab_profile"></string>
+<!--    <string name="tab_home">Home</string>-->
+<!--    <string name="tab_daftar_rumah_sakit">Reservasi</string>-->
+<!--    <string name="tab_transaksi">Transaksi</string>-->
+<!--    <string name="tab_profile">Profile</string>-->
+    <string name="title_activity_main">MainActivity</string>
+</resources>

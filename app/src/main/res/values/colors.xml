@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainColor">#10AC84</color>
+    <color name="btn_1_background_home_color">#18573A</color>
+    <color name="btn_2_background_home_color">#CD9250</color>
+    <color name="btn_3_background_home_color">#D88D85</color>
+    <color name="btn_4_background_home_color">#1A2E35</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darken_blue">#1A2E35</color>
+    <color name="orange">#FF9F43</color>
+</resources>

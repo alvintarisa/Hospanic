@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="645dp"
+        android:background="@drawable/backgound_view">
+
+        <Button
+            android:id="@+id/btn_1_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_1_home"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/text_btn_1_home"
+            android:layout_width="79dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="FASKEK TERDEKAT"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_1_home" />
+
+        <Button
+            android:id="@+id/btn_2_mitra"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_2_home"
+            app:layout_constraintStart_toEndOf="@+id/btn_1_home"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_btn_2_mitra"
+            android:layout_width="79dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="MITRA KAMI"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/text_btn_1_home"
+            app:layout_constraintTop_toBottomOf="@+id/btn_2_mitra" />
+
+        <Button
+            android:id="@+id/btn_3_ruang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_3_home"
+            app:layout_constraintStart_toEndOf="@+id/btn_2_mitra"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_btn_3_ruang"
+            android:layout_width="79dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="RUANG INAP TERSEDIA"
+            android:textSize="12dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/text_btn_2_mitra"
+            app:layout_constraintTop_toBottomOf="@+id/btn_3_ruang" />
+
+        <Button
+            android:id="@+id/btn_4_info"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_4_home"
+            app:layout_constraintStart_toEndOf="@+id/btn_3_ruang"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_btn_4_info"
+            android:layout_width="79dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="INFO COVID-19"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/text_btn_3_ruang"
+            app:layout_constraintTop_toBottomOf="@+id/btn_4_info" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_view_home"
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_btn_1_home" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospanic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/doctor_by_memed_nurrohmad"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/doctor_by_memed_nurrohmad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Panic"></activity>
+        <activity
+            android:name=".Activity.Reservasi"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Activity.MainMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
